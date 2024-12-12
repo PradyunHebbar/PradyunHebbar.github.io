@@ -1,27 +1,37 @@
 ---
-layout: home
+layout: default
 title: Home
 nav_order: 1
 permalink: /
 ---
 
-# Welcome to My Academic Portfolio
+# Pradyun Hebbar
 
-I am a recent BS-MS graduate specializing in particle physics and machine learning applications. My research focuses on developing innovative deep learning techniques for particle detection and classification in high-energy physics experiments.
+<div class="grid-container">
+<div class="grid-child" markdown="1">
 
-## Research Highlights
+I am a recent BS-MS graduate from [IISER Pune](https://www.iiserpune.ac.in/) specializing in particle physics and machine learning applications. My study lies in the intersection of fundamental physics and machine learning. My research focuses on developing innovative machine learning techniques for high-energy physics experiments.
 
-- Guest Scientist at Max Planck Institute for Physics (MPP), Munich
-- Research Assistant at Lawrence Berkeley National Laboratory (LBNL)
-- Collaborator with CERN CMS Experiment
-- Published work on deep learning applications in particle physics
+I completed my coursework with a GPA of 3.7/4 funded by the INSPIRE scholarship at IISER. I was also awarded the NEST (Nationwide Education and Scholarship Test) scholarship for my undergraduate education at IISER.
 
-## Academic Background
+Beyond research, you can learn more about my [outreach activities](/outreach) and [international experiences](/experiences).
 
-- BS-MS from Indian Institute of Science Education and Research (IISER) Pune
-- CGPA: 8.6/10 (3.7/4 US equivalent)
-- GRE Physics: 910/990 (100% in Quantum Mechanics and Atomic Physics)
-- INSPIRE Fellow - Department of Science and Technology (DST)
+</div>
+<div class="grid-child" markdown="1">
+<img src="assets/images/pradyun-profile.jpg" alt="Pradyun Hebbar" style="max-width: 100%; height: auto; border-radius: 5px;">
+</div>
+</div>
 
-[View My Research](/research){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
-[View My Publications](/publications){: .btn .btn-outline .fs-5 .mb-4 .mb-md-0 }
+<style>
+.grid-container {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 40px;
+    align-items: start;
+}
+@media (max-width: 800px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+}
+</style>
