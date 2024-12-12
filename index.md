@@ -2,7 +2,6 @@
 layout: home
 title: Home
 nav_order: 1
-description: "Welcome to Pradyun Hebbar's academic portfolio"
 permalink: /
 ---
 
