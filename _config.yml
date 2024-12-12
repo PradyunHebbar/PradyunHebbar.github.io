@@ -5,7 +5,7 @@ url: "https://pradyunhebbar.github.io" # the base hostname & protocol for your s
 
 # Theme settings
 remote_theme: just-the-docs/just-the-docs
-color_scheme: light #dark
+#color_scheme: dark
 
 # Aux links for the upper right navigation
 aux_links:
