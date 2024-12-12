@@ -1,19 +1,20 @@
 title: Pradyun Hebbar
 description: Physics PhD Portfolio
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://pradyunhebbar.github.io" # the base hostname & protocol for your site
+baseurl: "/" 
+url: "https://pradyunhebbar.github.io"
 
 # Theme settings
 remote_theme: just-the-docs/just-the-docs
 #color_scheme: dark
 
-# Aux links for the upper right navigation
-aux_links:
-  "GitHub": "https://github.com/PradyunHebbar"
-  "LinkedIn": "https://www.linkedin.com/in/pradyun-hebbar"
-
-# Makes Aux links open in a new tab
-aux_links_new_tab: true
+# Navigation
+nav_external_links:
+  - title: GitHub
+    url: https://github.com/PradyunHebbar
+    opens_in_new_tab: true
+  - title: LinkedIn
+    url: https://www.linkedin.com/in/pradyun-hebbar
+    opens_in_new_tab: true
 
 # Enable or disable heading anchors
 heading_anchors: true
@@ -23,7 +24,7 @@ back_to_top: true
 back_to_top_text: "Back to top"
 
 # Footer content
-footer_content: "Copyright &copy; 2024 Pradyun Hebbar."
+footer_content: "Copyright &copy; 2024 Pradyun Hebbar. Website powered by Jekyll with Just the Docs theme."
 
 # Search
 search_enabled: true
@@ -32,6 +33,17 @@ search:
   previews: 3
   preview_words_before: 5
   preview_words_after: 10
-  tokenizer_separator: /[\s/]+/
-  rel_url: true
-  button: false
+
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:name
+
+# Optional defaults for projects
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: project
