@@ -39,11 +39,19 @@ collections:
   projects:
     output: true
     permalink: /:collection/:name
+  experiences:
+    output: true
+    permalink: /:collection/:name
 
-# Optional defaults for projects
+# Optional defaults for projects and experiences
 defaults:
   - scope:
       path: ""
       type: "projects"
     values:
       layout: project
+  - scope:
+      path: ""
+      type: "experiences"
+    values:
+      layout: experience
