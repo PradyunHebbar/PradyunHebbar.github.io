@@ -3,16 +3,6 @@ layout: default
 title: Guest Scientist at Max Planck Institute
 parent: Experiences
 nav_order: 1
-location: "Munich, Germany"
-date: 2023-08-01
-header_image: /assets/images/mpp-munich.jpg
-gallery:
-  - url: /assets/images/lab-work.jpg
-    caption: "Working with the ATLAS detector data"
-  - url: /assets/images/munich-conference.jpg
-    caption: "Presenting at the MPP weekly seminar"
-  - url: /assets/images/team-photo.jpg
-    caption: "With the MPP research team"
 ---
 
 # Research Experience at Max Planck Institute
