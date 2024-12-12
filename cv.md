@@ -1,18 +1,19 @@
 ---
 layout: default
 title: CV
-nav_order: 3
+nav_order: 4
+permalink: /cv/
 ---
 
 # Curriculum Vitae
 
 <div class="cv-container">
-    <iframe src="/assets/CV_PradyunHebbar.pdf" width="100%" height="800px" style="border: none;">
+    <iframe src="{{ site.baseurl }}/assets/CV_PradyunHebbar.pdf" width="100%" height="800px" style="border: none;">
     </iframe>
 </div>
 
 <div class="cv-download">
-    <a href="/assets/CV_PradyunHebbar.pdf" class="btn" download>Download CV</a>
+    <a href="{{ site.baseurl }}/assets/CV_PradyunHebbar.pdf" class="btn" download>Download CV</a>
 </div>
 
 <style>
