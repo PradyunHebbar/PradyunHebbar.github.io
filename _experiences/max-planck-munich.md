@@ -1,6 +1,8 @@
 ---
-layout: experience
-title: "Guest Scientist at Max Planck Institute"
+layout: default
+title: Guest Scientist at Max Planck Institute
+parent: Experiences
+nav_order: 1
 location: "Munich, Germany"
 date: 2023-08-01
 header_image: /assets/images/mpp-munich.jpg
