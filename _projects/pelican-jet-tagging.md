@@ -1,8 +1,8 @@
 ---
+layout: default
 title: PELICAN for Multi-Particle Jet Tagging
-date: 2024-01-15
-image: /assets/images/pelican-project.jpg
-technologies: [PyTorch, Python, CUDA, Physics]
+parent: Projects
+nav_order: 1
 ---
 
 # PELICAN for Multi-Particle Jet Tagging
