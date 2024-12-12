@@ -1,28 +1,29 @@
 title: Pradyun Hebbar
 description: Physics PhD Portfolio
-theme: just-the-docs
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://pradyunhebbar.github.io" # the base hostname & protocol for your site
 
-url: https://PradyunHebbar.github.io
+# Theme settings
+remote_theme: just-the-docs/just-the-docs
+color_scheme: light #dark
 
+# Aux links for the upper right navigation
 aux_links:
   "GitHub": "https://github.com/PradyunHebbar"
-  "LinkedIn": "https://linkedin.com/in/pradyun-hebbar"
+  "LinkedIn": "https://www.linkedin.com/in/pradyun-hebbar"
 
-# Color scheme
-color_scheme: dark
+# Makes Aux links open in a new tab
+aux_links_new_tab: true
 
 # Enable or disable heading anchors
 heading_anchors: true
 
-# Footer content
-footer_content: "Copyright &copy; 2024 Pradyun Hebbar. Distributed under an MIT license."
-
-# Enable or disable back to top button
+# Back to top link
 back_to_top: true
 back_to_top_text: "Back to top"
 
-# Enable or disable copy button on code blocks
-enable_copy_code_button: true
+# Footer content
+footer_content: "Copyright &copy; 2024 Pradyun Hebbar."
 
 # Search
 search_enabled: true
