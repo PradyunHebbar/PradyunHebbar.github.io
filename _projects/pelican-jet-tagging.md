@@ -1,8 +1,10 @@
 ---
-layout: default
-title: PELICAN for Multi-Particle Jet Tagging
+layout: project
+title: "PELICAN for Multi-Particle Jet Tagging"
 parent: Projects
 nav_order: 1
+description: "State-of-the-art performance in particle classification"
+image: /assets/images/pelican-visualization.jpg
 ---
 
 # PELICAN for Multi-Particle Jet Tagging
