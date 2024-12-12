@@ -5,9 +5,25 @@ url: "https://pradyunhebbar.github.io"
 
 # Theme settings
 remote_theme: just-the-docs/just-the-docs
-#color_scheme: dark
 
-# Navigation
+# Navigation structure
+nav:
+  - title: Home
+    url: /
+    nav_order: 1
+  - title: Projects
+    url: /projects/
+    nav_order: 2
+  - title: Experiences
+    url: /experiences/
+    nav_order: 3
+  - title: CV
+    url: /cv/
+    nav_order: 4
+  - title: Publications
+    url: /publications/
+    nav_order: 5
+
 nav_external_links:
   - title: GitHub
     url: https://github.com/PradyunHebbar
@@ -15,6 +31,37 @@ nav_external_links:
   - title: LinkedIn
     url: https://www.linkedin.com/in/pradyun-hebbar
     opens_in_new_tab: true
+
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:name
+    nav_fold: true
+  experiences:
+    output: true
+    permalink: /:collection/:name
+    nav_fold: true
+
+# Defaults for collections and pages
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: project
+      parent: Projects
+  - scope:
+      path: ""
+      type: "experiences"
+    values:
+      layout: experience
+      parent: Experiences
+  - scope:
+      path: "cv.md"
+    values:
+      layout: default
+      nav_order: 4
 
 # Enable or disable heading anchors
 heading_anchors: true
@@ -33,25 +80,3 @@ search:
   previews: 3
   preview_words_before: 5
   preview_words_after: 10
-
-# Collections
-collections:
-  projects:
-    output: true
-    permalink: /:collection/:name
-  experiences:
-    output: true
-    permalink: /:collection/:name
-
-# Optional defaults for projects and experiences
-defaults:
-  - scope:
-      path: ""
-      type: "projects"
-    values:
-      layout: project
-  - scope:
-      path: ""
-      type: "experiences"
-    values:
-      layout: experience
