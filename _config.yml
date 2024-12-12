@@ -1,35 +1,15 @@
 title: Pradyun Hebbar
 description: Physics PhD Portfolio
 baseurl: "/" 
-url: "https://pradyunhebbar.github.io"
+url: "https://PradyunHebbar.github.io"
 
 # Theme settings
 remote_theme: just-the-docs/just-the-docs
 
 # Navigation structure
-nav:
-  - title: Home
-    url: /
-    nav_order: 1
-  - title: Projects
-    url: /projects/
-    nav_order: 2
-  - title: Experiences
-    url: /experiences/
-    nav_order: 3
-  - title: CV
-    url: /cv/
-    nav_order: 4
-  - title: Publications
-    url: /publications/
-    nav_order: 5
-
 nav_external_links:
   - title: GitHub
     url: https://github.com/PradyunHebbar
-    opens_in_new_tab: true
-  - title: LinkedIn
-    url: https://www.linkedin.com/in/pradyun-hebbar
     opens_in_new_tab: true
 
 # Collections
@@ -37,11 +17,9 @@ collections:
   projects:
     output: true
     permalink: /:collection/:name
-    nav_fold: true
   experiences:
     output: true
     permalink: /:collection/:name
-    nav_fold: true
 
 # Defaults for collections and pages
 defaults:
@@ -49,19 +27,14 @@ defaults:
       path: ""
       type: "projects"
     values:
-      layout: project
+      layout: default
       parent: Projects
   - scope:
       path: ""
       type: "experiences"
     values:
-      layout: experience
-      parent: Experiences
-  - scope:
-      path: "cv.md"
-    values:
       layout: default
-      nav_order: 4
+      parent: Experiences
 
 # Enable or disable heading anchors
 heading_anchors: true
